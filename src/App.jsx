@@ -25,8 +25,8 @@ function App() {
     currency: '£'
   }
 
-  // const now = new Date(2017, 2, 8);
-  const now = new Date(2022, 4, 22);
+  const now = new Date(2017, 2, 8);
+  // const now = new Date(2022, 4, 22);
 
   return (
     <>
