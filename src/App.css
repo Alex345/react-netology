@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
 
+@import "./assets/css/main-store-func.css";
+@import "./assets/css/main-store-class.css";
+@import "./assets/css/main-calendar.css";
+
 body,
 html {
   margin: 0;
