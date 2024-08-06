@@ -66,8 +66,6 @@ function Calendar({date}) {
     // Если первый день попал на воскресенье, то для того чтобы зайти в массив нужно поставить 2
     const sunday_number_next_month = (0 === first_day_name_next_month) ? 2 : 1 + (7 - (first_day_name_next_month - 1));
 
-    console.log(sunday_number_next_month);
-
     let arr_length = sunday_number_next_month - 1;
     for (let i = 0; i < arr_length; i++) {
       days.push(1 + i);
