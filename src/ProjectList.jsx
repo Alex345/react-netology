@@ -14,7 +14,7 @@ function ProjectList({projects}) {
 
   return (
     <>
-      <div dangerouslySetInnerHTML={createMarcup} />;
+      <div dangerouslySetInnerHTML={{__html: str}}></div>
     </>
   );
 }
