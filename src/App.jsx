@@ -1,10 +1,12 @@
-import './App.css'
+import './App.css';
+import './Portfolio.jsx';
+import Portfolio from "./Portfolio.jsx";
 
 function App() {
 
   return (
     <>
-      <button className="btn btn-secondary">Secondary</button>
+      <Portfolio />
     </>
   );
 }
