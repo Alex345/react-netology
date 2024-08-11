@@ -5,9 +5,11 @@ import Portfolio from "./Portfolio.jsx";
 function App() {
 
   return (
-    <>
-      <Portfolio />
-    </>
+    <div className="container">
+      <div className="portfolio">
+        <Portfolio />
+      </div>
+    </div>
   );
 }
 

@@ -1,0 +1,45 @@
+.portfolio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio__filter {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 100%;
+}
+.portfolio__filter .btn-outline.active {
+  --tw-border-opacity: 1;
+  border-color: var(--fallback-bc, oklch(var(--bc) / var(--tw-border-opacity)));
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-bc, oklch(var(--bc) / var(--tw-bg-opacity)));
+  --tw-text-opacity: 1;
+  color: var(--fallback-b1, oklch(var(--b1) / var(--tw-text-opacity)));
+}
+.portfolio__filter .btn {
+  margin-left: 5px;
+}
+.portfolio__filter .btn:first-child {
+  margin-left: 0;
+}
+.portfolio__gallery {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.portfolio__gallery > div {
+  width: calc((100% / 3) - 10px);
+}
+.portfolio__gallery img {
+  margin-bottom: 20px;
+  object-fit: cover;
+  width: 100%;
+}
