@@ -1,5 +1,3 @@
-import { Children } from 'react';
-
 function ProjectList({projects}) {
 
   // Разделяем картинки на колонки

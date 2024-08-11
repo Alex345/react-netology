@@ -1,0 +1,133 @@
+.product-views.active {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.product-views__icons {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 20px;
+  width: 100%;
+}
+.product-views__icons .material-icons {
+  cursor: pointer;
+}
+.cards-view {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.card-view__item {
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 15px 30px;
+  max-width: 300px;
+  min-height: 300px;
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+  width: calc((100% / 3) - 70px);
+  z-index: 1;
+}
+.card-view__item-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.card-view__item-img {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.card-view__item-img img {
+  height: 100%;
+  object-fit: cover;
+}
+.card-view__item-action {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px 20px;
+  padding: 0 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.card-view__item-action-price {
+  color: #940000;
+}
+.card-view__item-action-btn {
+  border-radius: 100px;
+  border: 1px solid #940000;
+  color: #940000;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.list-view {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.list-view__item {
+  background: #f3f3f3;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  padding-right: 20px;
+  width: 100%;
+}
+.list-view__item-img {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-view__item-img img {
+  max-height: 80px;
+}
+.list-view__item-title {
+  font-size: 24px;
+}
+.list-view__item-color {
+  font-size: 12px;
+}
+.list-view__item-action-price {
+  color: #940000;
+  font-size: 12px;
+}
+.list-view__item-action-btn {
+  border-radius: 100px;
+  border: 1px solid #940000;
+  color: #940000;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}

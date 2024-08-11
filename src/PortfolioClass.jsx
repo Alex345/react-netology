@@ -2,7 +2,7 @@ import {Component} from "react";
 import Toolbar from "./Toolbar.jsx";
 import ProjectList from "./ProjectList.jsx";
 
-export default class Portfolio extends Component {
+export default class PortfolioClass extends Component {
 
   // Начальная инициализация данных
   state = {
