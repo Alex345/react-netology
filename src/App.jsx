@@ -1,6 +1,7 @@
 import './App.css';
 import PortfolioClass from "./PortfolioClass.jsx";
 import StoreClass from "./StoreClass.jsx";
+import DropdownList from "./DropdownList.jsx";
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
         <StoreClass />
       </div>
 
-      <div className="container drop-list"></div>
+      <div className="container drop-list">
+        <DropdownList />
+      </div>
     </>
 
   );
