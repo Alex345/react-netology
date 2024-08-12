@@ -11,7 +11,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 15px;
+  height: unset;
+  min-height: unset;
+  padding: 15px;
   text-transform: uppercase;
   width: 300px;
 }

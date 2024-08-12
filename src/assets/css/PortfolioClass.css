@@ -31,7 +31,9 @@
   color: var(--fallback-b1, oklch(var(--b1) / var(--tw-text-opacity)));
 }
 .portfolio__filter .btn {
+  border-radius: 0;
   margin-left: 5px;
+  padding: 8px 20px;
 }
 .portfolio__filter .btn:first-child {
   margin-left: 0;
