@@ -4,9 +4,8 @@ function DropdownItem({items, activeItem, onClick}) {
     onClick(newActiveItem)
   }
 
-  const itemClick = (e) => {
-    const newActiveItem = e.target.outerText;
-    handlerClick(newActiveItem);
+  const itemClick = (text) => {
+    handlerClick(text);
   }
 
   return (
@@ -14,7 +13,7 @@ function DropdownItem({items, activeItem, onClick}) {
       {items.map((item, index) => {
         return(
           <li>
-            <a className={ (item.name === activeItem) ? 'active' : '' } href={item.url} onClick={itemClick}>{item.name}</a>
+            <a className={ (item.name === activeItem) ? 'active' : '' } href={item.url} onClick={() => itemClick(item.name)}>{item.name}</a>
           </li>
         );
       })}
