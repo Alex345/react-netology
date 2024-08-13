@@ -3,7 +3,7 @@ function CardsView({cards}) {
     <div className="cards_view">
       {cards.map( (child, index) => {
         return (
-          <div className="card_view__item">
+          <div className="card_view__item" key={index}>
             <div className="card_view__item-title">{child.name}</div>
             <div className="card_view__item-color">{child.color}</div>
             <div className="card_view__item-action">

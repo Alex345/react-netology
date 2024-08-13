@@ -6,13 +6,13 @@ function IconSwitch({icon, onSwitch}) {
     })
   }
 
-  const iconClick = (e) => {
-    editButton(e.target.outerText);
+  const iconClick = (text) => {
+    editButton(text);
   }
 
   return (
     <div className="product-views__icons">
-      <span className="material-icons" onClick={iconClick}>{icon}</span>
+      <span className="material-icons" onClick={() => iconClick(icon)}>{icon}</span>
     </div>
   );
 }

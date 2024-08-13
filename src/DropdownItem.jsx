@@ -12,7 +12,7 @@ function DropdownItem({items, activeItem, onClick}) {
     <>
       {items.map((item, index) => {
         return(
-          <li>
+          <li key={index}>
             <a className={ (item.name === activeItem) ? 'active' : '' } href={item.url} onClick={() => itemClick(item.name)}>{item.name}</a>
           </li>
         );

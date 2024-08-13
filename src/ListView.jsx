@@ -3,7 +3,7 @@ function ListView({items}) {
     <div className="list-view">
       {items.map( (child, index) => {
           return (
-            <div className="list-view__item">
+            <div key={index} className="list-view__item">
               <div className="list-view__item-img">
                 <img src={child.img} alt=""/>
               </div>
